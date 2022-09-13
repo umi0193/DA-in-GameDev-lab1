@@ -4,11 +4,12 @@
 студент: Иванова Ивана Варкравтовна
 группа: РИ000024
 
-| Задание | Отметка о выполнении |
+| Задание | Выполнение |
 | ------ | ------ |
 | Задание 1 | # |
 | Задание 2 | # |
 | Задание 3 | # |
+
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
 
 
@@ -233,6 +234,6 @@ Dillinger в настоящее время расширен следующими
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
-## License
+## Powered by
 
-**Free Software, powered by Denisov D.V.**
+**BigDigital Team: Denisov | Fadeev | Panov**

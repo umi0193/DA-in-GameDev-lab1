@@ -41,8 +41,8 @@
 ## Подготовка среды
 Для выполнения первой и последующих лабораторных работ я произвела:
 - авторизацию на сайте Unity ID
--скачивание и установку Unity Hub
--скачивание и установку VS Code и два доп. пакета, а именно: .NET Framework 4.8 Developer Pack и .NET 6 SDK
+- скачивание и установку Unity Hub
+- скачивание и установку VS Code и два доп. пакета, а именно: .NET Framework 4.8 Developer Pack и .NET 6 SDK
 - установку редактора Unity и расширения на VS Code: Unity Tools и Unity Code Snippets, C# и C# XML Documentation
 - создание первого проекта на Unity (3D) и интегрирование туда VS Code. 
 

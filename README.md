@@ -75,23 +75,36 @@
 
 
 
-```py
+```cs
 
-In [ ]:
-#Import the required modules, numpy for calculation, and Matplotlib for drawing
-import numpy as np
-import matplotlib.pyplot as plt
-#This code is for jupyter Notebook only
-%matplotlib inline
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-# define data, and change list to array
-x = [3,21,22,34,54,34,55,67,89,99]
-x = np.array(x)
-y = [2,22,24,65,79,82,55,130,150,199]
-y = np.array(y)
+public class CheckCollaider : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
 
-#Show the effect of a scatter plot
-plt.scatter(x,y)
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        Debug.Log("Произошло столкновение с " + other.gameObject.name);
+        other.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
+    }
+
+    private void OnTriggerExit(Collider other) {
+         Debug.Log("Завершили столкновение с " + other.gameObject.name);
+        other.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
+    }
+}
 
 ```
 
